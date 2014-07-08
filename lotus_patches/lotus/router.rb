@@ -1,6 +1,6 @@
 module Lotus
   class Router
-    # To support defining routes in the `routes` wrapper.
+    # To support defining routes in the `define` wrapper.
     #
     # @example In Lotus framework
     #   class Application < Lotus::Application
@@ -11,10 +11,10 @@ module Lotus
     #
     #   # In `config/routes`
     #
-    #   routes do
+    #   define do
     #     get # ...
     #   end
-    def routes(&blk)
+    def define(&blk)
       instance_eval(&blk) if block_given?
     end
   end
