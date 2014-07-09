@@ -11,8 +11,6 @@ module Flower
         app
         config/initializers
       )
-
-      controller_pattern 'Controllers::%{controller}Controller::%{action}'
     end
   end
 end

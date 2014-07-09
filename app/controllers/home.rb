@@ -1,6 +1,6 @@
 module Flower
   module Controllers
-    module HomeController
+    module Home
       include Flower::Controller
 
       action 'Index' do
