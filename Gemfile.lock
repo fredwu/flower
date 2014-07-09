@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/lotus.git
-  revision: 4a434537a6a8322d548d84dba3a6f4dc96cf9c62
+  revision: 60a7b6e3dbc2d3ad44e7bab792c374cef1deb85d
   specs:
     lotusrb (0.1.0)
       lotus-controller (~> 0.2)
@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: git://github.com/lotus/router.git
-  revision: 2966ff8743def7c8855a20400f0bb8ffc37a621b
+  revision: d891af8b412e5f915510ccc83c50d9a7d9730029
   specs:
     lotus-router (0.1.1)
       http_router (~> 0.11)
